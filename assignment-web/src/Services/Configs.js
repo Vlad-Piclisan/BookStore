@@ -1,5 +1,5 @@
 import axios from "axios";
-export const baseURL = "http://localhost:4000"
+export const baseURL = "https://book-store-10ck.onrender.com"
 const axiosInstance = axios.create({ baseURL })
 export const headers = {
     "Content-Type": "application/json",
