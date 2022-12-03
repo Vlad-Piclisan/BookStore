@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="cart" transform="translate(-1256 -25)">
+    <path id="iconmonstr-shopping-bag-4" d="M20,7H16V4A4,4,0,0,0,8,4V7H4L2,24H22ZM9,4a3,3,0,0,1,6,0V7H9ZM4.249,22,5.778,9H8v1.5a.5.5,0,0,0,1,0V9h6v1.5a.5.5,0,0,0,1,0V9h2.222l1.529,13H4.249Z" transform="translate(1254 25)" fill="#666"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="7" cy="7" r="7" transform="translate(1266 29)" fill="#f5880d"/>
+    <text id="_3" data-name="3" transform="translate(1270 40)" fill="#fff" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+  </g>
+</svg>
