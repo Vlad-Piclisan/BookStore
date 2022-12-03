@@ -3,9 +3,8 @@ import { getToken, storeToken } from "../Services/Configs";
 import { getCurrentUser } from "../Services/Auth";
 
 export const useAuth = () => {
-    // o stare pt utilizator
-    const [user, setUser] = useState(); // initial value => undefined
-    // ceva logica sa refetchuie cand se incarca pagina
+
+    const [user, setUser] = useState(); 
     useEffect(() => {
         (async function() {
             const token = getToken()
@@ -17,8 +16,6 @@ export const useAuth = () => {
                     storeToken(null);
                     setUser(null); 
                 }
-                // facem 
-               // setez utilizatorul curent 
             }else {
                 setUser(null); 
             }

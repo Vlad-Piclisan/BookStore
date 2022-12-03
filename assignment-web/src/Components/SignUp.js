@@ -146,7 +146,7 @@ const SignUp = () => {
             fullWidth
             {...register("confirmPassword", {
               required: "Confirming your password is required",
-              validate: (password) => password === watch("password"), //if not "Password is not matching"
+              validate: (password) => password === watch("password"), 
             })}
             label="Confirm Password"
             type="password"

@@ -78,7 +78,7 @@ router.put("/picture", upload.single("file"), RequestWrapper((req,res) => {
     if(!req.file){
         throw new APIError(400, "Image is required!");
     }
-    // https://localhost:4000/picture/poza-cu-matz.png
+
     
     const imageURL = `${req.protocol}://${req.get("host")}/picture/${req.file.filename}`;
     res.send({

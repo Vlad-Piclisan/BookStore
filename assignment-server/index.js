@@ -25,11 +25,7 @@ async function main() {
 app.use(cors());
 app.use(express.json());
 configPassport();
-// app.use((req, res, next) => {
-//     req.zotac="Zotac"
-//     console.log(req.headers)
-//     next();
-// })
+
 app.use(bookRoutes);
 app.use(userRoutes);
 app.use(ErrorHandler);
